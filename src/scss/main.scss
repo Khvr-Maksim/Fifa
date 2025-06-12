@@ -1,4 +1,3 @@
-@use './mixins/font-face';
-@use './mixins/flex';
-@use './mixins/media';
-@use './mixins/burger';
+@use './mixins';
+@use './base';
+@use './globals';
