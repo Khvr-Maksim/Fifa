@@ -1,2 +1,9 @@
 import '../assets/scss/main.scss'
-console.log('Hello' + 'world')
+
+// components
+import {useTheme} from './components/theme.js';
+import {useBurger} from './components/burger.js';
+
+
+useTheme()
+useBurger()
