@@ -9,12 +9,12 @@
     text-align: center;
     transition: opacity var(--transition);
 
-    @include mixins.mobile{
+    @include mixins.mobile {
       font-size: 14px;
     }
 
-    &:hover{
-        opacity: .9;
+    &:hover {
+      opacity: 0.9;
     }
   }
 }

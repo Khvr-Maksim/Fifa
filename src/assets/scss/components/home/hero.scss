@@ -76,8 +76,8 @@
     }
   }
 
-  &__left{
-    @include mixins.mini-desctop{
+  &__left {
+    @include mixins.mini-desctop {
       max-width: 617px;
     }
   }
@@ -114,7 +114,7 @@
     margin-bottom: 69px;
 
     & br {
-      @include mixins.mini-desctop{
+      @include mixins.mini-desctop {
         display: none;
       }
     }
@@ -168,7 +168,7 @@
     position: relative;
     margin-right: 20px;
 
-    @include mixins.mini-desctop{
+    @include mixins.mini-desctop {
       display: none;
     }
   }
@@ -206,7 +206,7 @@
 
     @include mixins.small-desctop {
       top: -73px;
-        right: -86px;
+      right: -86px;
     }
 
     @include mixins.mini-desctop {

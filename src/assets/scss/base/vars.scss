@@ -10,53 +10,47 @@
   --neutral-color-120: #828282;
   --neutral-color-130: #d9d9d9;
   --neutral-color-140: #7e8492;
- 
 
   // primary colors
 
-  --primary-color-50: #4E7DDB;
+  --primary-color-50: #4e7ddb;
 
   // success colors
-  --success-color-70:#e3f8f0b3;
-
+  --success-color-70: #e3f8f0b3;
 
   // logo colors
   --logo-color-text: #101010;
   --logo-color-circle: #101010;
 
   // overview colors
-  --overview-bg-color:#1d1e25;
-
+  --overview-bg-color: #1d1e25;
 
   // container
   --container-padding: 15px;
   --container-width: 1200px;
 
-
   // Transition
   --transition: 0.3s;
 
   // z-index
-  --z-index-0:-1;
-  --z-index-1:1;
-  --z-index-2:2;
-  --z-index-3:3;
-  --z-index-4:4;
+  --z-index-0: -1;
+  --z-index-1: 1;
+  --z-index-2: 2;
+  --z-index-3: 3;
+  --z-index-4: 4;
 
-  @include mixins.mini-desctop{
+  @include mixins.mini-desctop {
     --container-width: 1000px;
   }
 
-  @include mixins.tablet{
+  @include mixins.tablet {
     --container-width: 860px;
   }
 
-  @include mixins.mobile{
+  @include mixins.mobile {
     --container-width: 480px;
   }
 }
-
-
 
 [data-theme='dark'] {
   // neutral-dark-theme
@@ -70,8 +64,8 @@
   --logo-color-circle: #343542;
 
   // overview colors
-  --overview-bg-color:#18181d;
+  --overview-bg-color: #18181d;
 
   // success colors
-  --success-color-70:#e2f8f033;
+  --success-color-70: #e2f8f033;
 }

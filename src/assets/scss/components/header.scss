@@ -4,8 +4,7 @@
   padding: 26px 0 22px;
   background-color: transparent;
 
-
-  @include mixins.mobile{
+  @include mixins.mobile {
     padding: 22px 0 18px;
   }
 
@@ -108,13 +107,11 @@
       text-align: center;
       color: var(--neutral-color-140);
       transform: translateX(-50%);
-      
-      @include mixins.small-desctop{
+
+      @include mixins.small-desctop {
         top: -28px;
         font-size: 20px;
       }
-
-      
     }
 
     &-checkbox {
