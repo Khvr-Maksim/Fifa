@@ -1,7 +1,7 @@
 @use '../../mixins';
 
 .features {
-  padding: 100px 0 94px;
+  padding: 160px 0 94px;
 
   @include mixins.mobile {
     padding: 60px 0 64px;
@@ -138,7 +138,7 @@
     max-width: 360px;
     font-weight: 500;
     line-height: 178%;
-    color: #7e8492;
+    color: var(--neutral-color-150);
 
     @include mixins.mini-desctop {
       max-width: 700px;
