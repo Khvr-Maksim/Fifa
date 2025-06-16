@@ -151,6 +151,22 @@
     }
   }
 
+  &__sublist {
+    overflow: hidden;
+    transition: max-height var(--transition);
+
+    @include mixins.small-mobile {
+      display: block; 
+      max-height: 0;
+    }
+
+    &.active {
+      @include mixins.small-mobile {
+        max-height: 500px;
+      }
+    }
+  }
+
   &__subitem {
     &:not(:last-child) {
       margin-bottom: 16px;
@@ -280,8 +296,8 @@
     line-height: 143%;
     color: #fff;
 
-    @include mixins.small-mobile{
-        text-align: center;
+    @include mixins.small-mobile {
+      text-align: center;
     }
   }
 }
