@@ -221,7 +221,7 @@
         margin-right: 10px;
         width: 20px;
         height: 20px;
-        background: url('../images/icons/pricing-check-green.svg');
+        background: url('../assets/images/icons/pricing-check-green.svg');
         transform: translateY(2px);
       }
       
@@ -238,7 +238,7 @@
         color: var(--neutral-color-150);
 
         &::before {
-          background: url('../images/icons/pricing-check-gray.svg');
+          background: url('../assets/images/icons/pricing-check-gray.svg');
         }
       }
     }
