@@ -12,7 +12,7 @@ export default defineConfig({
   },
   publicDir: './src/assets',
   build: {
-    outDir: './dist',
+    outDir: '../dist',
     emptyOutDir: true,
     rollupOptions: {
       input: {
