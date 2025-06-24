@@ -1,10 +1,10 @@
-import '/scss/contact.scss';
+import '/scss/about.scss';
 
 // components
 import { useTheme } from './components/theme.js';
-import {usePhone} from './components/contact/phone.js';
+import {useAboutSlider} from './components/about/slider.js';
 import { useBurger } from './components/burger.js';
 
 useTheme();
-usePhone();
 useBurger();
+useAboutSlider();
