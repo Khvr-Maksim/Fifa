@@ -3,6 +3,10 @@
 .hero {
   padding: 123px 0 180px;
 
+  @include mixins.mobile{
+    padding: 40px 0 70px;
+  }
+
   @include mixins.mobile {
     padding: 60px 0 100px;
   }
@@ -156,7 +160,7 @@
 
     @include mixins.mini-desctop{
       flex-direction: column;
-      text-align: center;
+      align-items: start;
     }
 
     @include mixins.mobile{
