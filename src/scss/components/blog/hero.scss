@@ -3,6 +3,10 @@
 .hero {
   padding: 95px 0 168px;
 
+  &__container{
+    overflow-x: visible;
+  }
+
   @include mixins.mobile {
     padding: 47px 0 84px;
   }

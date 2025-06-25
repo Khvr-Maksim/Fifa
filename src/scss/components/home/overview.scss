@@ -2,7 +2,7 @@
 
 .overview {
   padding: 100px 0;
-  background: var(--black-bg-color);
+  background: #000;
 
   @include mixins.tablet {
     text-align: center;

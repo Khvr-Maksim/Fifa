@@ -4,7 +4,5 @@
 
 // components
 @use './components/header';
-@use './components/blog/hero';
-@use './components/blog/posts';
-@use './components/blog/articles';
+@use './components/post/first-post';
 @use './components/footer';
